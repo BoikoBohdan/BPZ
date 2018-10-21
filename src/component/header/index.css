@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    background: #999;
+    padding: 20px;
+}
+.header a{
+    padding: 0 20px 0 0;
+    text-transform: uppercase;
+    color: rgb(5, 97, 13);
+    font-weight: 700;
+    text-decoration: none;
+}
+.header__title{
+    font-size: 16px;
+}

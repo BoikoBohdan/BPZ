@@ -1,0 +1,33 @@
+.labs{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 50px 0;
+}
+.lab{
+    width: 40%;
+    position: relative;
+    padding: 40px 20px;
+    background: #fff;
+}
+.lab__link{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.lab__text{
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.lab__more{
+    color: blue;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    z-index: 99;
+}
